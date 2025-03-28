@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局字体和基础样式 */
+body {
+  @apply font-sans text-gray-900 bg-gray-50 dark:bg-gray-950 dark:text-gray-100;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 链接基础样式 */
+a {
+  @apply text-blue-600 dark:text-blue-400 transition-colors duration-300 ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  @apply text-blue-700 dark:text-blue-300 underline;
+}
+
+/* 平滑滚动效果 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full hover:bg-gray-400 dark:hover:bg-gray-500;
+}
+
+/* 选中文本样式 */
+::selection {
+  @apply bg-blue-100 dark:bg-blue-800 text-blue-900 dark:text-blue-100;
+}
+
+/* 焦点轮廓样式 */
+*:focus {
+  @apply outline-none ring-2 ring-blue-500 ring-opacity-50;
+}
+
+/* 页面过渡效果 */
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* 输入框和表单元素基础样式 */
+input, 
+textarea, 
+select, 
+button {
+  @apply dark:bg-gray-800 dark:text-gray-200 dark:border-gray-700;
+}
+
+/* 图片响应式和暗黑模式适配 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 动画和过渡 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 辅助类：用于需要淡入效果的元素 */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}

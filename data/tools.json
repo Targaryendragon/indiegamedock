@@ -1,20 +1,94 @@
-[
-  {
-    "name": "Desmos",
-    "description": "数值可视化计算器，适合策划模拟成长曲线",
-    "image": "/desmos.png",
-    "tags": ["策划", "数值", "可视化"],
-    "category": "策划工具",
-    "link": "https://www.desmos.com/",
-    "rating": 4.8
-  },
-  {
-    "name": "Midjourney",
-    "description": "AI 绘图工具，适合美术创意激发与场景草图制作",
-    "image": "/midjourney.png",
-    "tags": ["美术", "AI", "灵感"],
-    "category": "美术工具",
-    "link": "https://www.midjourney.com/",
-    "rating": 4.7
-  }
-]
+{
+    "tools": [
+        {
+            "id": 1,
+            "name": "Midjourney AI绘图",
+            "description": "革命性的AI图像生成工具，可快速创建游戏原画和概念设计",
+            "category": "美术",
+            "tags": ["AI", "概念设计", "图像生成"],
+            "url": "https://www.midjourney.com",
+            "icon": "https://example.com/midjourney-icon.png"
+        },
+        {
+            "id": 2,
+            "name": "Unity Game Services",
+            "description": "一站式游戏后端解决方案，提供云存档、多人联机等功能",
+            "category": "程序",
+            "tags": ["云服务", "后端", "跨平台"],
+            "url": "https://unity.com/game-services",
+            "icon": "https://example.com/unity-services-icon.png"
+        },
+        {
+            "id": 3,
+            "name": "Blender",
+            "description": "开源3D建模与动画软件，支持游戏资源制作全流程",
+            "category": "美术",
+            "tags": ["3D建模", "动画", "免费"],
+            "url": "https://www.blender.org",
+            "icon": "https://example.com/blender-icon.png"
+        },
+        {
+            "id": 4,
+            "name": "Articy Draft",
+            "description": "专业剧情和对话系统工具，帮助策划快速构建游戏叙事",
+            "category": "策划",
+            "tags": ["剧情", "对话编辑", "叙事工具"],
+            "url": "https://www.articy.com",
+            "icon": "https://example.com/articy-draft-icon.png"
+        },
+        {
+            "id": 5,
+            "name": "ChatGPT游戏助手",
+            "description": "AI辅助游戏策划和脚本生成，支持快速迭代游戏创意",
+            "category": "AI",
+            "tags": ["AI创作", "策划工具", "脚本生成"],
+            "url": "https://chat.openai.com",
+            "icon": "https://example.com/chatgpt-icon.png"
+        },
+        {
+            "id": 6,
+            "name": "Substance Painter",
+            "description": "专业纹理绘制软件，为3D模型创建逼真的材质和细节",
+            "category": "美术",
+            "tags": ["纹理", "材质绘制", "次世代游戏"],
+            "url": "https://www.adobe.com/products/substance-painter.html",
+            "icon": "https://example.com/substance-painter-icon.png"
+        },
+        {
+            "id": 7,
+            "name": "Spine 2D动画",
+            "description": "专业2D骨骼动画工具，适用于游戏、交互动画制作",
+            "category": "美术",
+            "tags": ["2D动画", "骨骼动画", "游戏动效"],
+            "url": "http://esotericsoftware.com",
+            "icon": "https://example.com/spine-icon.png"
+        },
+        {
+            "id": 8,
+            "name": "Construct 3",
+            "description": "零代码游戏开发引擎，适合独立开发者快速制作2D游戏",
+            "category": "程序",
+            "tags": ["无代码", "2D游戏", "快速开发"],
+            "url": "https://www.construct.net",
+            "icon": "https://example.com/construct-icon.png"
+        },
+        {
+            "id": 9,
+            "name": "Trello游戏开发管理",
+            "description": "敏捷项目管理工具，帮助小团队高效协作和任务追踪",
+            "category": "策划",
+            "tags": ["项目管理", "团队协作", "任务追踪"],
+            "url": "https://trello.com",
+            "icon": "https://example.com/trello-icon.png"
+        },
+        {
+            "id": 10,
+            "name": "Stable Diffusion",
+            "description": "开源AI图像生成工具，可定制游戏资产和概念原画",
+            "category": "AI",
+            "tags": ["AI", "图像生成", "开源"],
+            "url": "https://stability.ai/stable-diffusion",
+            "icon": "https://example.com/stable-diffusion-icon.png"
+        }
+    ]
+}
