@@ -21,7 +21,7 @@ const ToolsPage: React.FC = () => {
 
   // 获取唯一的分类列表
   const categories = useMemo(() => {
-    const uniqueCategories = ['全部', ...new Set(toolsData.tools.map(tool => tool.category))];
+    const uniqueCategories = ['全部', ...Array.from(new Set(toolsData.tools.map(tool => tool.category)))];
     return uniqueCategories;
   }, []);
 
