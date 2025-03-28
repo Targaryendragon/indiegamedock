@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         {/* 网站 Logo 和描述 */}
         <div className="mb-6">
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-3">
-            GameDevTools
+            IndieGameDock
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
             为游戏开发者提供最前沿的工具资源和创新灵感，连接全球游戏开发社群，
