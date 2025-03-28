@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +14,12 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo 区域 */}
         <Link href="/" className="flex items-center space-x-2">
+          <Image 
+            src="/favicon.ico" 
+            alt="GameDevTools Logo" 
+            width={24} 
+            height={24}
+          />
           <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
             GameDevTools
           </span>
