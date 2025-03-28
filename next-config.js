@@ -9,25 +9,22 @@ const nextConfig = {
     defaultLocale: 'zh-CN',
   },
 
-  // 自定义 Webpack 配置（可选）
-  webpack: (config, { isServer }) => {
-    // 在这里可以添加自定义 Webpack 配置
-    // 例如：处理特殊的模块加载、性能优化等
-    return config;
-  },
-
   // 图片优化配置
   images: {
     domains: [
       // 允许的图片域名，例如：
-      // 'example.com',
-      // 'cdn.yoursite.com'
+      'example.com',
+      'cdn.yoursite.com',
+      'res.cloudinary.com', // 如果使用 Cloudinary
+      'images.unsplash.com', // 如果使用 Unsplash
+      'placehold.co', // 占位图片服务
     ],
   },
 
-  // 性能和构建优化预留
-  optimizations: {
-    // 可以在这里添加性能相关配置
+  // 自定义 Webpack 配置（可选）
+  webpack: (config, { isServer }) => {
+    // 在这里可以添加自定义 Webpack 配置
+    return config;
   },
 
   // 重写和重定向配置
@@ -37,22 +34,26 @@ const nextConfig = {
     ];
   },
 
-  // 环境变量配置
-  env: {
-    // 可以添加全局可用的环境变量
-    // NEXT_PUBLIC_SOME_KEY: process.env.SOME_KEY,
-  },
-
-  // 编译时配置
-  experimental: {
-    // 可以启用一些实验性功能
-    // serverActions: true,
-  },
-
   // 安全头配置
-  headers: async () => {
+  async headers() {
     return [
-      // 可以添加自定义安全头
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+        ],
+      },
     ];
   },
 };

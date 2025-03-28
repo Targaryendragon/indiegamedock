@@ -7,7 +7,7 @@
             "category": "美术",
             "tags": ["AI", "概念设计", "图像生成"],
             "url": "https://www.midjourney.com",
-            "icon": "https://example.com/midjourney-icon.png"
+            "icon": "https://placehold.co/200x200/4F46E5/FFFFFF?text=MJ"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "category": "程序",
             "tags": ["云服务", "后端", "跨平台"],
             "url": "https://unity.com/game-services",
-            "icon": "https://example.com/unity-services-icon.png"
+            "icon": "https://placehold.co/200x200/2563EB/FFFFFF?text=Unity"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "category": "美术",
             "tags": ["3D建模", "动画", "免费"],
             "url": "https://www.blender.org",
-            "icon": "https://example.com/blender-icon.png"
+            "icon": "https://placehold.co/200x200/EA580C/FFFFFF?text=Blender"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "category": "策划",
             "tags": ["剧情", "对话编辑", "叙事工具"],
             "url": "https://www.articy.com",
-            "icon": "https://example.com/articy-draft-icon.png"
+            "icon": "https://placehold.co/200x200/0891B2/FFFFFF?text=Articy"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "category": "AI",
             "tags": ["AI创作", "策划工具", "脚本生成"],
             "url": "https://chat.openai.com",
-            "icon": "https://example.com/chatgpt-icon.png"
+            "icon": "https://placehold.co/200x200/10B981/FFFFFF?text=GPT"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "category": "美术",
             "tags": ["纹理", "材质绘制", "次世代游戏"],
             "url": "https://www.adobe.com/products/substance-painter.html",
-            "icon": "https://example.com/substance-painter-icon.png"
+            "icon": "https://placehold.co/200x200/7C3AED/FFFFFF?text=Substance"
         },
         {
             "id": 7,
@@ -61,7 +61,7 @@
             "category": "美术",
             "tags": ["2D动画", "骨骼动画", "游戏动效"],
             "url": "http://esotericsoftware.com",
-            "icon": "https://example.com/spine-icon.png"
+            "icon": "https://placehold.co/200x200/EC4899/FFFFFF?text=Spine"
         },
         {
             "id": 8,
@@ -70,7 +70,7 @@
             "category": "程序",
             "tags": ["无代码", "2D游戏", "快速开发"],
             "url": "https://www.construct.net",
-            "icon": "https://example.com/construct-icon.png"
+            "icon": "https://placehold.co/200x200/F59E0B/FFFFFF?text=C3"
         },
         {
             "id": 9,
@@ -79,7 +79,7 @@
             "category": "策划",
             "tags": ["项目管理", "团队协作", "任务追踪"],
             "url": "https://trello.com",
-            "icon": "https://example.com/trello-icon.png"
+            "icon": "https://placehold.co/200x200/0EA5E9/FFFFFF?text=Trello"
         },
         {
             "id": 10,
@@ -88,7 +88,7 @@
             "category": "AI",
             "tags": ["AI", "图像生成", "开源"],
             "url": "https://stability.ai/stable-diffusion",
-            "icon": "https://example.com/stable-diffusion-icon.png"
+            "icon": "https://placehold.co/200x200/8B5CF6/FFFFFF?text=SD"
         }
     ]
 }
