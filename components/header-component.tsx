@@ -15,13 +15,12 @@ const Header: React.FC = () => {
         {/* Logo 区域 */}
         <Link href="/" className="flex items-center space-x-2">
           <Image 
-            src="/favicon.ico" 
+            src="/favicon.png" 
             alt="GameDevTools Logo" 
-            width={24} 
-            height={24}
+            width={200} 
+            height={200}
           />
           <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            GameDevTools
           </span>
         </Link>
 
